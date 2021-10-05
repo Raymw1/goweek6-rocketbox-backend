@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "git@github.com:Raymw1/goweek6-rocketbox-backend.git",
+  "author": "Raymw1 <rayan.rmw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
